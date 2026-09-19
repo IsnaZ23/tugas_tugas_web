@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'inter', sans-serif;
+    background-color: #f4f7f9;
+}
+
+.card-welcome{
+    background-color: #eaf1fa;
+    border-radius: 16px;
+}
+
+.card-tabel{
+    background-color: #eaf1fa;
+    border-radius: 16px;
+}
+
+.table-hover tbody tr{
+    transition: ease-in-out;
+}
+
+footer{
+    background-color: #eaf1fa;
+    padding-top: 1.5rem;
+}
