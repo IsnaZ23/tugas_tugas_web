@@ -97,7 +97,7 @@
                   <td>I</td>
                   <td>Informatika</td>
                   <td>
-                    <button class="btn btn-danger btn-sm px-3">Delete</button>
+                    <button class="btn btn-danger btn-sm px-3" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
                   </td>
                 </tr>
                 <tr>
@@ -106,7 +106,7 @@
                   <td>S</td>
                   <td>Informatika</td>
                   <td>
-                    <button class="btn btn-danger btn-sm px-3">Delete</button>
+                    <button class="btn btn-danger btn-sm px-3" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
                   </td>
                 </tr>
                 <tr>
@@ -115,7 +115,7 @@
                   <td>N</td>
                   <td>Informatika</td>
                   <td>
-                    <button class="btn btn-danger btn-sm px-3">Delete</button>
+                    <button class="btn btn-danger btn-sm px-3" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
                   </td>
                 </tr>
                 <tr>
@@ -124,7 +124,7 @@
                   <td>A</td>
                   <td>Informatika</td>
                   <td>
-                    <button class="btn btn-danger btn-sm px-3">Delete</button>
+                    <button class="btn btn-danger btn-sm px-3" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
                   </td>
                 </tr>
                 <tr>
@@ -133,20 +133,49 @@
                   <td>N</td>
                   <td>Informatika</td>
                   <td>
-                    <button class="btn btn-danger btn-sm px-3">Delete</button>
+                    <button class="btn btn-danger btn-sm px-3" data-bs-toggle="modal" data-bs-target="#deleteModal">Delete</button>
                   </td>
                 </tr>
               </tbody>
             </table>
-            
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- pop up nya -->
+    <div class="modal fade" tabindex="-1" id="deleteModal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Konfirmasi Hapus</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Apakah kamu yakin ingin menghapus data mahasiswa ini?</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary btn-sm"
+              data-bs-dismiss="modal"
+            >
+              Batal
+            </button>
+            <button type="button" class="btn btn-primary btn-sm" data-bs-dismiss="modal" style="background-color: red;">Hapus</button>
           </div>
         </div>
       </div>
     </div>
 
     <footer class="text-center text-muted pb-4">
-        <small
-          >&copy; 2026 web. Universitas pembangunan "veteran" yogyakarta.</small>
+      <small
+        >&copy; 2026 web. Universitas pembangunan "veteran" yogyakarta.</small
+      >
     </footer>
 
     <script
